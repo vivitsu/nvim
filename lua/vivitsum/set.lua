@@ -1,4 +1,3 @@
--- Don't know if I want this yet 
 -- vim.opt.guicursor = ""
 
 vim.opt.nu = true
@@ -31,3 +30,8 @@ vim.opt.updatetime = 50
 
 -- Don't think I want this right now
 -- vim.opt.colorcolumn = "80"
+
+-- nvim-tree
+vim.g.loaded_netrw = 1
+vim.g.loaded_netrwPlugin = 1
+

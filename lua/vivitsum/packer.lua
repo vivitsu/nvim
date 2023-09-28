@@ -60,6 +60,13 @@ return require('packer').startup(function(use)
 	  }
   }
 
+  use {
+      'nvim-tree/nvim-tree.lua',
+      requires = {
+          'nvim-tree/nvim-web-devicons', -- optional
+      }
+  }
+
   use {'akinsho/bufferline.nvim', tag = "*", requires = 'nvim-tree/nvim-web-devicons'}
 
   use 'theprimeagen/harpoon'
