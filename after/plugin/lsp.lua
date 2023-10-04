@@ -63,4 +63,7 @@ vim.diagnostic.config({
 -- })
 
 -- Comment if uncommenting above lines
-require("lspconfig").rust_analyzer.setup({})
+require("lspconfig").rust_analyzer.setup({
+    on_attach = on_attach,
+    capabilities = capabilities,
+})
