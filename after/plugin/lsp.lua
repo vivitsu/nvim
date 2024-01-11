@@ -67,3 +67,9 @@ require("lspconfig").rust_analyzer.setup({
     on_attach = on_attach,
     capabilities = capabilities,
 })
+
+-- Comment if uncommenting above lines
+require("lspconfig").clangd.setup({
+    on_attach = on_attach,
+    capabilities = capabilities,
+})
