@@ -53,7 +53,7 @@ vim.diagnostic.config({
     virtual_text = true
 })
 
--- Uncomment if using mason (and comment L66)
+-- Uncomment if using mason 
 -- require('mason').setup({})
 -- require('mason-lspconfig').setup({
 -- 	ensure_installed = {'tsserver', 'rust_analyzer'},
